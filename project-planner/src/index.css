@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #d9d9d9;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+
+.custom_button {
+  color: #9a9a9a;
+  border-radius: 10px;
+  background: #39332d;
+  padding: 10px 25px;
+  border: 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom_button:hover {
+  background-color: #504a42;
+  color: #ffffff;
+}
+
+.custom_button:active {
+  background-color: #2e2925;
+  transform: scale(0.95);
+}
+
+.cancel-button {
+  color: #ffffff;
+  border-radius: 10px;
+  background: #ff4d4d;
+  padding: 10px 25px;
+  border: 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: #ff1a1a;
+  color: #ffffff;
+}
+
+.cancel-button:active {
+  background-color: #cc0000;
+  transform: scale(0.9);
+}

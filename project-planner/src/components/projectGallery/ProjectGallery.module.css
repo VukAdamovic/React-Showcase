@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  50px;
+    border-radius: 25px;
+    background: #151414;
+    color: #d9d9d9;
+    width: 100%;
+}
+
+.custom_ul {
+    width: 100%;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.custom_ul li {
+    cursor: pointer; /* Make list items clickable */
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Add hover animation */
+    border-radius: 32px 64px;
+}
+
+.custom_ul li:hover {
+    background-color: #333; /* Change background color on hover */
+}
+
+.custom_ul li:active {
+    background-color: #555; /* Change background color on click */
+}
+
+
+@media (min-width: 1200px ) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 125px 0 0 0;
+        padding:  50px 150px 50px  50px;
+        border-radius: 0 25px 0 0;
+        background: #0e0e0e;
+        color: #d9d9d9;
+        width: 25%;
+        white-space: nowrap;
+    }
+}
+
